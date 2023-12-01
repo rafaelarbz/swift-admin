@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class SwaggerConfig {
 
     @Bean
-    public OpenAPI customOpenAPI() {
+    public OpenAPI SwiftAdminOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
                         .title("Swift Admin")
